@@ -1,14 +1,15 @@
 interface Aditi{
     //public abstract void show();
     //public abstract void config();
-    int age = 44;
+    int age = 44;  // final and static 
     String area = "mumbai";
 
     void show();
     void config();
 
 }
-
+// instead of extends for inherit iterface 
+//it must be declared undeclerd methods og interface it this is not a abstract class 
 class B implements Aditi {
 
     public void show(){
@@ -27,7 +28,7 @@ public class IInterface{
         obj.show();
         obj.config();
 
-         //   	A.area="Hyderabad";
+         //   	Aditi.area="Hyderabad";
          System.out.println(Aditi.area);
 
     }
