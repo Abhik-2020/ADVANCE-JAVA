@@ -7,15 +7,15 @@ public class Enum {
     public static void main(String[] args) {
 
     	int i=5;
-//    	Status s= Status.Running;
+   		// Status s = Status.Running;
 //    	Status s= Status.Failed;
-//    	Status s= Status.NoIdea;
-//    	Status s= Status.Success;
+   	    // Status s= Status.NoIdea;
+   		// Status s= Status.Success;
     	
-//    	System.out.println(s);
-//    	System.out.println(s.ordinal());
+		// System.out.println(s);
+		// System.out.println(s.ordinal());
     	
-    	Status[] ss=Status.values();
+    	Status[] ss = Status.values();
     	System.out.println(ss);
     	
     	for(Status s:ss)
@@ -24,8 +24,6 @@ public class Enum {
     		System.out.println(s+" : "+s.ordinal());
     	}
     	
-    	
-        
     }
 }
     

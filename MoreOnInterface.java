@@ -51,6 +51,10 @@ public class MoreOnInterface{
         obj1 = new Abhik();
         obj1.run();
 
+        // Aditi obj2;
+        // obj2 = new Abhik();
+        // obj2.show(); //error
+
         // Father.age = 60;       // ERROR
         // Father.area = "Delhi"; // ERROR
         // You cannot change age and area directly in your current code because variables declared inside an interface are automatically:
